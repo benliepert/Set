@@ -33,7 +33,7 @@ def findSets(cards):
                             if (card3,card1,card2) in sets or (card1, card3, card2) in sets or (card2, card1, card3) in sets or (card2, card3, card1) in sets or (card3, card2, card1) in sets:
                                 pass
                             else:
-                                sets.append((card1,card2,card3))
+                                sets.append((card1,card2,card3)) # could sort and then append. would that help shorten the if statement above?
     return sets
 
 def main():
